@@ -1,10 +1,35 @@
+var navElement;
+var slideElement;
+var loadCounter = 0;
+var test;
 $(document).ready(function(){
-	updateOnClick();
+	$.ajax({
+	  url: 'blocks/navElement.html',
+	  success: function(data) {
+			navElement = $(data);
+			countLoadedElements();
+		},
+	  dataType: 'html'
+	});
+	$.ajax({
+	  url: 'blocks/slideElement.html',
+	  success: function(data) {
+			slideElement = $(data);
+			countLoadedElements();
+		},
+	  dataType: 'html'
+	});
 	$(window).bind('hashchange', function() {
  		updateOnClick();
 	});
 });
 
+function countLoadedElements() {
+	loadCounter++;
+	if(loadCounter == 2) {
+		updateOnClick();
+	}
+}
 function updateOnClick() {
 	var slug = location.hash.substring(1);
 	var currentCourse = findInObjectArray(data, 'slug', slug);
@@ -13,17 +38,24 @@ function updateOnClick() {
 	}
 	$('#navbar').empty();
 	data.forEach(function(course) {
+		var element = $(navElement[0]).clone();
 		if(currentCourse.title == course.title){
-			var element = '<li class="active">';
-		} else {
-			var element = '<li>';
+			element.attr('class', 'active');
 		}
-		element += '<a href="#'+course.slug+'" onclick="updateOnClick()">'+course.title+'<span class="sr-only">(current)</span></a></li>';
-		$('#navbar').append(element);
+		var link = $(element).children();
+		link.attr('href', '#'+course.slug);
+		link.html(course.title+link.html());
+		$('#navbar').append(element).html();
 	});
 	$('#content-container').empty();
 	currentCourse.slides.forEach(function(slide){
-		var element = '<div class="col-xs-6 col-md-3 text-center"><div class="tile-small-upper"><p>'+slide.title+'</p><a target="_blank" href="viewer.html?slug='+currentCourse.slug+'&content='+slide.title + '" role="button"><img src="files/'+currentCourse.slug+'/images/'+slide.slug+'-0.png" class="img-responsive" alt="Responsive image"></a></div><figure class="tile-small-bottom"><a class="btn btn-success" target="_blank" href="'+slide.location+'" role="button">Download</a><a class="btn btn-primary" target="_blank" href="viewer.html?slug='+currentCourse.slug+'&content='+slide.title + '" role="button">Bekijk online</a></figure></div>';
+		var element = $(slideElement[0]).clone();
+		var title = element.find('p').html(slide.title);
+		var viewLink = 'viewer.html?slug='+currentCourse.slug+'&content='+slide.title;
+		var imageLink = 'files/'+currentCourse.slug+'/images/'+slide.slug+'-0.png'
+		element.find('a').attr('href', viewLink);
+		element.find('a.btn-success').attr('href', slide.location);
+		element.find('img').attr('src', imageLink);
 		$('#content-container').append(element);
 	});
 }

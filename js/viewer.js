@@ -10,7 +10,8 @@ $(document).ready(function(){
 			var firstSlide = '<div class="section text-center" id="intro"><h1 id="title">'+slide.title+'</h1><p>Door Luc Veldhuis</p></div>';
 			$('#fullpage').append(firstSlide);
 			for(var i = 0; i <= slide.length; i++){
-				var element = '<div class="section" id="slide'+i+'" style="background:url(\'files/'+currentCourse.slug+'/images/'+slide.slug+'-'+i+'.png\') no-repeat center; background-size: contain;"></div>';
+				var styleSettings = 'background:url(\'files/'+currentCourse.slug+'/images/'+slide.slug+'-'+i+'.png\') no-repeat center; background-size: contain;';
+				var element = '<div class="section" id="slide'+i+'" style="'+styleSettings+'"></div>';
 				$('#fullpage').append(element);
 				anchorsArray.push('slide'+i);
 			}
