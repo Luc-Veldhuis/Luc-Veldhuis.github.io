@@ -23,7 +23,7 @@ function updateOnClick() {
 	});
 	$('#content-container').empty();
 	currentCourse.slides.forEach(function(slide){
-		var element = '<div class="col-xs-6 col-sm-3 text-center"><div class="tile-small-upper"><p>'+slide.title+'</p><img src="files/'+currentCourse.slug+'/images/'+slide.slug+'-0.png" class="img-responsive" alt="Responsive image"></div><figure class="tile-small-bottom"><a class="btn btn-success" target="_blank" href="'+slide.location+'" role="button">Download</a><a class="btn btn-primary" target="_blank" href="viewer.html?slug='+currentCourse.slug+'&content='+slide.title + '" role="button">Bekijk online</a></figure></div>';
+		var element = '<div class="col-xs-6 col-md-3 text-center"><div class="tile-small-upper"><p>'+slide.title+'</p><img src="files/'+currentCourse.slug+'/images/'+slide.slug+'-0.png" class="img-responsive" alt="Responsive image"></div><figure class="tile-small-bottom"><a class="btn btn-success" target="_blank" href="'+slide.location+'" role="button">Download</a><a class="btn btn-primary" target="_blank" href="viewer.html?slug='+currentCourse.slug+'&content='+slide.title + '" role="button">Bekijk online</a></figure></div>';
 		$('#content-container').append(element);
 	});
 }
