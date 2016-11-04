@@ -22,3 +22,10 @@ var getUrlParameter = function getUrlParameter(sParam) {
         }
     }
 };
+
+function countLoadedElements(functionToCall) {
+    loadCounter++;
+    if(loadCounter == externalCalls) {
+        functionToCall();
+    }
+}

@@ -1,13 +1,24 @@
 var navElement;
 var slideElement;
 var loadCounter = 0;
-var test;
+var externalCalls = 3;
+var data;
+
 $(document).ready(function(){
+	$.ajax({
+		url:'js/data.js',
+		success: function(response) {
+			data = response;
+			countLoadedElements(updateOnClick);
+		},
+		dataType: "json",
+		mimeType: "application/json"
+	});
 	$.ajax({
 	  url: 'blocks/navElement.html',
 	  success: function(data) {
 			navElement = $(data);
-			countLoadedElements();
+			countLoadedElements(updateOnClick);
 		},
 	  dataType: 'html'
 	});
@@ -15,7 +26,7 @@ $(document).ready(function(){
 	  url: 'blocks/slideElement.html',
 	  success: function(data) {
 			slideElement = $(data);
-			countLoadedElements();
+			countLoadedElements(updateOnClick);
 		},
 	  dataType: 'html'
 	});
@@ -26,10 +37,11 @@ $(document).ready(function(){
 
 function countLoadedElements() {
 	loadCounter++;
-	if(loadCounter == 2) {
+	if(loadCounter == externalCalls) {
 		updateOnClick();
 	}
 }
+
 function updateOnClick() {
 	var slug = location.hash.substring(1);
 	var currentCourse = findInObjectArray(data, 'slug', slug);

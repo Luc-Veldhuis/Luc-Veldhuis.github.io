@@ -1,4 +1,20 @@
+var loadCounter = 0;
+var externalCalls = 1;
+var data;
+
 $(document).ready(function(){
+	$.ajax({
+		url:'js/data.js',
+		success: function(response) {
+			data = response;
+			countLoadedElements(addSlides);
+		},
+		dataType: "json",
+		mimeType: "application/json"
+	});
+});
+
+function addSlides() {
 	var courseSlug = getUrlParameter('slug');
 	var courseSlide = getUrlParameter('content');
 	var currentCourse = findInObjectArray(data, 'slug', courseSlug);
@@ -23,6 +39,4 @@ $(document).ready(function(){
 		navigationPosition: 'right',
 		//anchors: anchorsArray
 	});
-});
-
-//magick convert -density 150 -quality 100 slides1.pdf images/slides1.png
+}
