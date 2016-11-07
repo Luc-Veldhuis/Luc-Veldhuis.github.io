@@ -2,10 +2,16 @@
     {
         "slides": [
             {
-                "length": 14,
+                "length": 15,
                 "location": "files/statistics/slides/slides8.pdf",
                 "slug": "slides8",
                 "title": "Slides 8"
+            },
+            {
+                "length": 15,
+                "location": "files/statistics/slides/slides9.pdf",
+                "slug": "slides9",
+                "title": "Slides 9"
             }
         ],
         "slug": "statistics",
