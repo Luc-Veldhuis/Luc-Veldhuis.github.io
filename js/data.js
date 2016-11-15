@@ -20,7 +20,7 @@
     {
         "slides": [
             {
-                "length": 5,
+                "length": 6,
                 "location": "files/logic/slides/slides1.pdf",
                 "slug": "slides1",
                 "title": "Slides 1"
@@ -32,7 +32,7 @@
     {
         "slides": [
             {
-                "length": 12,
+                "length": 13,
                 "location": "files/analysis1b/slides/slides1.pdf",
                 "slug": "slides1",
                 "title": "Slides 1"

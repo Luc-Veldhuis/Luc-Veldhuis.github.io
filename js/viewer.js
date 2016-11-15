@@ -25,7 +25,7 @@ function addSlides() {
 			var anchorsArray = ['intro'];
 			var firstSlide = '<div class="section text-center" id="intro"><h1 id="title">'+slide.title+'</h1><p>Door Luc Veldhuis</p></div>';
 			$('#fullpage').append(firstSlide);
-			for(var i = 0; i <= slide.length; i++){
+			for(var i = 0; i < slide.length; i++){
 				var imageUrl = 'files/'+currentCourse.slug+'/images/'+slide.slug+'-'+i+'.png';
 				//var styleSettings = 'background:url(\'files/'+currentCourse.slug+'/images/'+slide.slug+'-'+i+'.png\') no-repeat center; background-size: contain;';
 				var styleSettings = '';
