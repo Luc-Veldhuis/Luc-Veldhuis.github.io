@@ -60,6 +60,12 @@
                 "location": "files/analysis1b/slides/slides5.pdf",
                 "slug": "slides5",
                 "title": "Slides 5"
+            },
+            {
+                "length": 10,
+                "location": "files/analysis1b/slides/slides6.pdf",
+                "slug": "slides6",
+                "title": "Slides 6"
             }
         ],
         "slug": "analysis1b",
