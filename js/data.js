@@ -38,7 +38,7 @@
     {
         "slides": [
             {
-                "length": 13,
+                "length": 23,
                 "location": "files/analysis1b/slides/slides1.pdf",
                 "slug": "slides1",
                 "title": "Slides 1"
@@ -90,6 +90,12 @@
                 "location": "files/analysis1b/slides/slides9.pdf",
                 "slug": "slides9",
                 "title": "Slides 9"
+            },
+            {
+                "length": 10,
+                "location": "files/analysis1b/slides/slides10.pdf",
+                "slug": "slides10",
+                "title": "Slides 10"
             }
         ],
         "slug": "analysis1b",
