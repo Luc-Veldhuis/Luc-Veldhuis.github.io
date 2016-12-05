@@ -18,6 +18,12 @@
                 "location": "files/statistics/slides/slides11.pdf",
                 "slug": "slides11",
                 "title": "Slides 11"
+            },
+            {
+                "length": 15,
+                "location": "files/statistics/slides/slides12.pdf",
+                "slug": "slides12",
+                "title": "Slides 12"
             }
         ],
         "slug": "statistics",
