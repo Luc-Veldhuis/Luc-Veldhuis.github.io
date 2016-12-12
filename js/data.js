@@ -30,6 +30,12 @@
                 "location": "files/statistics/slides/slides12.pdf",
                 "slug": "slides12",
                 "title": "Slides 12"
+            },
+            {
+                "length": 8,
+                "location": "files/statistics/slides/slides13.pdf",
+                "slug": "slides13",
+                "title": "Slides 13"
             }
         ],
         "slug": "statistics",
