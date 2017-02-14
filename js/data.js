@@ -136,5 +136,41 @@
         ],
         "slug": "analysis1b",
         "title": "Analysis 1B"
+    },
+    {
+        "slides": [
+            {
+                "length": 15,
+                "location": "files/analysis2a/slides/slides1.pdf",
+                "slug": "slides1",
+                "title": "Slides 1"
+            },
+            {
+                "length": 13,
+                "location": "files/analysis2a/slides/slides2.pdf",
+                "slug": "slides2",
+                "title": "Slides 2"
+            }
+        ],
+        "slug": "analysis2a",
+        "title": "Analyse 2A"
+    },
+    {
+        "slides": [
+            {
+                "length": 11,
+                "location": "files/groepenTheorie/slides/slides1.pdf",
+                "slug": "slides1",
+                "title": "Slides 1"
+            },
+            {
+                "length": 13,
+                "location": "files/groepenTheorie/slides/slides2.pdf",
+                "slug": "slides2",
+                "title": "Slides 2"
+            }
+        ],
+        "slug": "groepenTheorie",
+        "title": "Groepen Theorie"
     }
 ]

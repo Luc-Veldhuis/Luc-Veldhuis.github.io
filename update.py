@@ -32,7 +32,10 @@ def check_if_added(data):
 				slide = {"location" : slide_path+slide_location, "slug": slide_location[:-4]} 
 				print("Found a new slide %s" % (slide_path + slide_location))
 				slide["title"] = re.sub("(\w)([\d]+)", r'\1 \2',slide["slug"]).title()
-				slide["length"] = convert_slides(slide_path+slide_location, STORAGE_LOCATION+course["slug"] + '/images/',slide["slug"]+'.png')
+				image_path = STORAGE_LOCATION+course["slug"] + '/images/'
+				if(not os.path.exists(image_path)):
+					os.makedirs(image_path)
+				slide["length"] = convert_slides(slide_path+slide_location,image_path,slide["slug"]+'.png')
 				course["slides"].append(slide)
 	return data
 
