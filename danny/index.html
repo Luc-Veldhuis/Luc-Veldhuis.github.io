@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Costa Rica afteller</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="timer.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    .terug{
+      display: none;
+    }
+    html, body
+    {
+        height: 100%;
+    }
+    body{
+      background: url('img/wolken.jpg') no-repeat #D6CDC4;
+      background-size: cover;
+      color: #147E13;
+      font-size: 5vmin;
+      text-align: center;
+    }
+    @media only screen and (max-width: 400px) {
+        body {
+             background-size: auto 100%;
+        }
+    }
+    body h1{
+      font-size: 10vmin;
+    }
+    .passengers{
+      margin-top: -15%;
+      text-align: center;
+    }
+    .profile{
+      margin-left: 5px;
+      margin-right: 5px;
+      max-width: 50px;
+      display: inline-block;
+      border-radius: 10px;
+      z-index: 2;
+      position: relative;
+      transition: all .2s ease-in-out;
+    }
+    .profile:hover { 
+      transform: scale(3); 
+    }
+    .profile2 {
+      max-width: 100px;
+    }
+    .country{
+      margin-top:-1%;
+      z-index: -1;
+      color: #FAC82F;
+    }
+    .nederland{
+      color: #FAC82F;
+      text-align: left;
+    }
+    .costa{
+      text-align: right;
+      color: #DD1D1D;
+    }
+	.costa img{
+		max-height:200px;
+	}
+    .costaWrapper{
+      min-height: 200px;
+    }
+    .thuis-title {
+      color: #FAA22F;
+    }
+    .hoofd-wrapper {
+      height: 600px;
+      background: url('img/Nederland2.png') no-repeat;
+      background-position: center;
+      background-size: contain;
+      padding-top: 20%;
+    }
+    @keyframes flipper{
+      0%{
+        transform: scaleX(1);
+      }
+      50%{
+        transform: scaleX(1);
+      }
+      51%{
+        transform: scaleX(-1);
+      }
+      100%{
+        transform: scaleX(-1);
+      }
+    }
+    @keyframes plane{
+      0% {
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+      }
+      50% {
+        transform: rotate(-180deg);
+        transform-origin: 0% 50%;
+      }
+      51%{
+        transform: rotate(-180deg);
+        transform-origin: 0% 50%;
+      }
+      100%{
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+      }
+    }
+    
+    @keyframes planeWrapper{
+      0% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(180deg);
+      }
+      100%{
+        transform: rotate(0deg);
+      }
+    }
+     @keyframes flipper2{
+      from{
+        transform: scaleX(-1);
+      }
+      to{
+        transform: scaleX(-1);
+      }
+    }
+    @keyframes plane2{
+      from{
+        transform: rotate(-180deg);
+        transform-origin: 0% 50%;
+      }
+      to{
+        transform: rotate(0deg);
+        transform-origin: 50% 50%;
+      }
+    }
+    
+    @keyframes planeWrapper2{
+      from {
+        transform: rotate(180deg);
+      }
+      to {
+        transform: rotate(0deg);
+      }
+    }
+    @keyframes wigglewiggle{
+      0% {
+        transform: rotate(-30deg);
+      }
+      50% {
+        transform: rotate(30deg);
+      }
+      100% {
+        transform: rotate(-30deg);
+      }
+    }
+    .flipper{
+      animation-name: flipper;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+    }
+    .plane{
+      animation-name: plane;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+      z-index:1;
+    }
+    .planeWrapper{
+      width: 50%;
+      animation-name: planeWrapper;
+      animation-duration: 20s;
+      animation-iteration-count: infinite;
+
+    }
+    .flipper2{
+      animation-name: flipper2;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+    }
+    .plane2{
+      animation-name: plane2;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      z-index:1;
+    }
+    .planeWrapper2{
+      width: 50%;
+      animation-name: planeWrapper2;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+
+    }
+    .profile2 {
+      animation-name: wigglewiggle;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <div>
+        <h1 class="heen terug">Afteller voor 
+          <span class="heen">Costa Rica</span>
+          <span class="terug">Nederland</span>!
+        </h1>
+        <h1 class="thuis thuis-title">
+          Welkom thuis!
+        </h1>
+      </div>
+
+      <div class="row heen terug">
+        <div class="col-xs-12">
+            <div class="planeWrapper heen">
+              <div class="plane">
+                <div class="flipper">
+                  <img class="img-responsive" src="img/plane.png">
+                </div>
+                <div class="passengers">
+                  <img class="img-responsive profile" onclick="terug();" src="img/danny.png">
+                </div>
+              </div>
+            </div>
+            <div class="planeWrapper2 terug">
+              <div class="plane2">
+                <div class="flipper2">
+                  <img class="img-responsive" src="img/plane.png">
+                </div>
+                  <div class="passengers">
+                  <img class="img-responsive profile" onclick="thuis();" src="img/danny.png">
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-xs-6 country nederland">
+          <div class="countryWrapper">
+            <img class="img-responsive " src="img/Nederland.png">
+          </div>
+        </div>
+        <div class="col-xs-6 country costa">
+              <img class="img-responsive pull-right" src="img/costa.png">
+        </div>
+      </div>
+    </div>
+    <div class="container heen terug">
+      <div class="col-xs-6 nederland">
+        <p>Nederland</p>
+      </div>
+      <div class="col-xs-6 costa">
+        <p>Costa Rica</p>
+      </div>
+      <div class="col-xs-12">
+        <p id="timer" class="heen"></p>
+        <p id="terugtimer" class="terug"></p>
+      </div>
+    </div> <!-- /container -->
+    <div class="container thuis">
+        <div class="hoofd-wrapper">
+          <img class="img-responsive profile profile2" onclick="heen();" src="img/danny.png">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+      var heenTijd = "10:35 27 February, 2017";
+      var terugTijd = "7:30 7 August, 2017";
+      new Timer($('#timer')[0], heenTijd); 
+      new Timer($('#terugtimer')[0], terugTijd); 
+      $(document).ready(function(){
+        if(new Date(terugTijd).getTime()- new Date().getTime() <= 0) {
+          thuis();
+        }
+        else if(new Date(heenTijd).getTime() - new Date().getTime() <= 0){
+          terug();
+        } else {
+			heen();
+		}
+      });
+      var sound = new Audio('sound/yeey.mp3');
+      var interval;
+      function playSound() {
+        sound.currentTime = 0;
+        sound.play();
+      }
+      $(".profile2").each(function(item) {
+        $(this).css("animation-duration", 1+Math.random()+"s");
+      });
+      function heen() {
+        $(".terug").hide();
+        $(".thuis").hide();
+        $(".heen").show();
+        $("body").css('background-image', "url(img/wolken.jpg)");
+        window.clearTimeout(interval);
+      }
+      function terug() {
+        $(".heen").hide();
+        $(".thuis").hide();
+        $(".terug").show();
+        $("body").css('background-image', "url(img/wolken.jpg)");
+        window.clearTimeout(interval);
+      }
+      function thuis() {
+        $(".heen").hide();
+        $(".terug").hide();
+        $(".thuis").show();
+        $("body").css('background-image', "url(img/strand.jpg)");
+        sound.play();
+        interval = window.setInterval(playSound, 8000);
+      }
+      function stopSound() {
+        window.clearInterval(interval);
+      }
+    </script>
+  </body>
+</html>
