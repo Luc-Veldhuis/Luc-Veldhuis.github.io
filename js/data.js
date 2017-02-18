@@ -141,21 +141,15 @@
         "slides": [
             {
                 "length": 15, 
-                "location": "files/analysis2a/slides/slides1.pdf", 
-                "slug": "slides1", 
-                "title": "Slides 1"
-            }, 
-            {
-                "length": 13, 
-                "location": "files/analysis2a/slides/slides2.pdf", 
-                "slug": "slides2", 
-                "title": "Slides 2"
+                "location": "files/analysis2a/slides/week1.pdf", 
+                "slug": "week1", 
+                "title": "Week 1"
             }, 
             {
                 "length": 21, 
-                "location": "files/analysis2a/slides/slides3.pdf", 
-                "slug": "slides3", 
-                "title": "Slides 3"
+                "location": "files/analysis2a/slides/week2.pdf", 
+                "slug": "week2", 
+                "title": "Week 2"
             }
         ], 
         "slug": "analysis2a", 
