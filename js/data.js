@@ -150,6 +150,12 @@
                 "location": "files/analysis2a/slides/week2.pdf",
                 "slug": "week2",
                 "title": "Week 2"
+            },
+            {
+                "length": 17,
+                "location": "files/analysis2a/slides/week3.pdf",
+                "slug": "week3",
+                "title": "Week 3"
             }
         ],
         "slug": "analysis2a",
