@@ -156,6 +156,18 @@
                 "location": "files/analysis2a/slides/week3.pdf", 
                 "slug": "week3", 
                 "title": "Week 3"
+            }, 
+            {
+                "length": 9, 
+                "location": "files/analysis2a/slides/week4-1.pdf", 
+                "slug": "week4-1", 
+                "title": "Week 4-1"
+            }, 
+            {
+                "length": 7, 
+                "location": "files/analysis2a/slides/week4-2.pdf", 
+                "slug": "week4-2", 
+                "title": "Week 4-2"
             }
         ], 
         "slug": "analysis2a", 
