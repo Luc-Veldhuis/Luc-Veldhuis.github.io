@@ -198,6 +198,12 @@
                 "location": "files/groepenTheorie/slides/slides4.pdf", 
                 "slug": "slides4", 
                 "title": "Slides 4"
+            }, 
+            {
+                "length": 15, 
+                "location": "files/groepenTheorie/slides/slides5.pdf", 
+                "slug": "slides5", 
+                "title": "Slides 5"
             }
         ], 
         "slug": "groepenTheorie", 
