@@ -135,7 +135,7 @@
             }
         ], 
         "slug": "analysis1b", 
-        "title": "Analysis 1B"
+        "title": "Analyse 1B"
     }, 
     {
         "slides": [
@@ -168,6 +168,12 @@
                 "location": "files/analysis2a/slides/week4-2.pdf", 
                 "slug": "week4-2", 
                 "title": "Week 4-2"
+            }, 
+            {
+                "length": 22, 
+                "location": "files/analysis2a/slides/week5.pdf", 
+                "slug": "week5", 
+                "title": "Week 5"
             }
         ], 
         "slug": "analysis2a", 

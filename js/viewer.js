@@ -23,7 +23,7 @@ function addSlides() {
 		var slide = findInObjectArray(slides, 'title', courseSlide);
 		if(slide) {
 			var anchorsArray = ['intro'];
-			var firstSlide = '<div class="section text-center" id="intro"><h1 id="title">'+slide.title+'</h1><p>Door Luc Veldhuis</p></div>';
+			var firstSlide = '<div class="section text-center" id="intro"><h1 id="title">'+slide.title+'</h1><p>Door Luc Veldhuis</p><p>Spel en typfouten voorbehouden</p></div>';
 			$('#fullpage').append(firstSlide);
 			for(var i = 0; i < slide.length; i++){
 				var imageUrl = 'files/'+currentCourse.slug+'/images/'+slide.slug+'-'+i+'.png';
