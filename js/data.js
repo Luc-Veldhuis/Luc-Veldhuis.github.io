@@ -174,6 +174,12 @@
                 "location": "files/analysis2a/slides/week5.pdf", 
                 "slug": "week5", 
                 "title": "Week 5"
+            }, 
+            {
+                "length": 20, 
+                "location": "files/analysis2a/slides/week6.pdf", 
+                "slug": "week6", 
+                "title": "Week 6"
             }
         ], 
         "slug": "analysis2a", 
