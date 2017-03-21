@@ -180,6 +180,12 @@
                 "location": "files/analysis2a/slides/week6.pdf", 
                 "slug": "week6", 
                 "title": "Week 6"
+            }, 
+            {
+                "length": 10, 
+                "location": "files/analysis2a/slides/week7.pdf", 
+                "slug": "week7", 
+                "title": "Week 7"
             }
         ], 
         "slug": "analysis2a", 
