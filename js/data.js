@@ -234,6 +234,12 @@
                 "location": "files/groepenTheorie/slides/slides7.pdf", 
                 "slug": "slides7", 
                 "title": "Slides 7"
+            }, 
+            {
+                "length": 12, 
+                "location": "files/groepenTheorie/slides/slides9.pdf", 
+                "slug": "slides9", 
+                "title": "Slides 9"
             }
         ], 
         "slug": "groepenTheorie", 
@@ -252,6 +258,12 @@
                 "location": "files/analysis2b/slides/slides2.pdf", 
                 "slug": "slides2", 
                 "title": "Slides 2"
+            }, 
+            {
+                "length": 11, 
+                "location": "files/analysis2b/slides/slides3.pdf", 
+                "slug": "slides3", 
+                "title": "Slides 3"
             }
         ], 
         "slug": "analysis2b", 
