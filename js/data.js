@@ -264,6 +264,12 @@
                 "location": "files/analysis2b/slides/slides3.pdf", 
                 "slug": "slides3", 
                 "title": "Slides 3"
+            }, 
+            {
+                "length": 12, 
+                "location": "files/analysis2b/slides/slides4.pdf", 
+                "slug": "slides4", 
+                "title": "Slides 4"
             }
         ], 
         "slug": "analysis2b", 
