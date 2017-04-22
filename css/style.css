@@ -22,14 +22,24 @@
 	padding: 9px 14px;
 	background-color: #f7f7f9;
 	border: 1px solid #e1e1e8;
+	text-align: center;
 }
 #content-container{
+	margin-right: 0px;
+	margin-left:0px;
+}
+#assignment-container{
 	margin-right: 0px;
 	margin-left:0px;
 }
 .btn{
 	margin-left: 2px;
 	margin-right: 2px;
+}
+@media screen and (max-width: 767px) {
+	#content-container .btn-success {
+		margin-bottom: 5px;
+	}
 }
 .section{
 	background-size: contain;
@@ -39,4 +49,8 @@
 .navbar{
 	border-top-right-radius: 0px;
 	border-top-left-radius: 0px;
+}
+.assignment-tile img{
+	display:inline-block;
+	height: 50px;
 }

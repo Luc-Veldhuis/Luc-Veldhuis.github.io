@@ -1,7 +1,8 @@
 var navElement;
 var slideElement;
+var assignmentElement;
 var loadCounter = 0;
-var externalCalls = 3;
+var externalCalls = 4;
 var data;
 
 $(document).ready(function(){
@@ -26,6 +27,14 @@ $(document).ready(function(){
 	  url: 'blocks/slideElement.html',
 	  success: function(data) {
 			slideElement = $(data);
+			countLoadedElements(updateOnClick);
+		},
+	  dataType: 'html'
+	});
+	$.ajax({
+	  url: 'blocks/assignmentElement.html',
+	  success: function(data) {
+			assignmentElement = $(data);
 			countLoadedElements(updateOnClick);
 		},
 	  dataType: 'html'
@@ -60,6 +69,7 @@ function updateOnClick() {
 		$('#navbar').append(element).html();
 	});
 	$('#content-container').empty();
+	$('#assignment-container').empty();
 	currentCourse.slides.forEach(function(slide){
 		var element = $(slideElement[0]).clone();
 		var title = element.find('p').html(slide.title);
@@ -69,5 +79,11 @@ function updateOnClick() {
 		element.find('a.btn-success').attr('href', slide.location);
 		element.find('img').attr('src', imageLink);
 		$('#content-container').append(element);
+	});
+	currentCourse.assignments.forEach(function(assignment){
+		var element = $(assignmentElement[0]).clone();
+		var title = element.find('p').html(assignment.title);
+		element.find('a.btn-success').attr('href', assignment.location);
+		$('#assignment-container').append(element);
 	});
 }
