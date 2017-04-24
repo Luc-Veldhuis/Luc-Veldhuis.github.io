@@ -83,6 +83,7 @@ function updateOnClick() {
 	currentCourse.assignments.forEach(function(assignment){
 		var element = $(assignmentElement[0]).clone();
 		var title = element.find('p').html(assignment.title);
+		element.find('a').attr('href', assignment.location);
 		element.find('a.btn-success').attr('href', assignment.location);
 		$('#assignment-container').append(element);
 	});
