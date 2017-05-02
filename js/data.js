@@ -361,6 +361,11 @@
                 "location": "files/topologie/assignments/assignment10.pdf", 
                 "slug": "assignment10", 
                 "title": "Assignment 10"
+            }, 
+            {
+                "location": "files/topologie/assignments/assignment11.pdf", 
+                "slug": "assignment11", 
+                "title": "Assignment 11"
             }
         ], 
         "slides": [], 
