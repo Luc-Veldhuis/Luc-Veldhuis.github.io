@@ -216,6 +216,11 @@
                 "location": "files/groepenTheorie/assignments/assignment4.pdf", 
                 "slug": "assignment4", 
                 "title": "Assignment 4"
+            }, 
+            {
+                "location": "files/groepenTheorie/assignments/assignment5.pdf", 
+                "slug": "assignment5", 
+                "title": "Assignment 5"
             }
         ], 
         "slides": [
@@ -272,6 +277,24 @@
                 "location": "files/groepenTheorie/slides/slides10.pdf", 
                 "slug": "slides10", 
                 "title": "Slides 10"
+            }, 
+            {
+                "length": 11, 
+                "location": "files/groepenTheorie/slides/slides11.pdf", 
+                "slug": "slides11", 
+                "title": "Slides 11"
+            }, 
+            {
+                "length": 12, 
+                "location": "files/groepenTheorie/slides/slides12.pdf", 
+                "slug": "slides12", 
+                "title": "Slides 12"
+            }, 
+            {
+                "length": 12, 
+                "location": "files/groepenTheorie/slides/slides13.pdf", 
+                "slug": "slides13", 
+                "title": "Slides 13"
             }
         ], 
         "slug": "groepenTheorie", 
