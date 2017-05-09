@@ -154,6 +154,12 @@
                 "location": "files/analysis2b/slides/slides7.pdf", 
                 "slug": "slides7", 
                 "title": "Slides 7"
+            }, 
+            {
+                "length": 11, 
+                "location": "files/analysis2b/slides/slides8.pdf", 
+                "slug": "slides8", 
+                "title": "Slides 8"
             }
         ], 
         "slug": "analysis2b", 
@@ -205,6 +211,11 @@
                 "location": "files/topologie/assignments/assignment11.pdf", 
                 "slug": "assignment11", 
                 "title": "Assignment 11"
+            }, 
+            {
+                "location": "files/topologie/assignments/assignment12.pdf", 
+                "slug": "assignment12", 
+                "title": "Assignment 12"
             }
         ], 
         "slides": [], 
