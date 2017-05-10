@@ -101,7 +101,7 @@
                 "title": "Slides 13"
             }, 
             {
-                "length": 11, 
+                "length": 12, 
                 "location": "files/groepenTheorie/slides/slides14.pdf", 
                 "slug": "slides14", 
                 "title": "Slides 14"
@@ -166,6 +166,12 @@
                 "location": "files/analysis2b/slides/slides8.pdf", 
                 "slug": "slides8", 
                 "title": "Slides 8"
+            }, 
+            {
+                "length": 10, 
+                "location": "files/analysis2b/slides/slides9.pdf", 
+                "slug": "slides9", 
+                "title": "Slides 9"
             }
         ], 
         "slug": "analysis2b", 
