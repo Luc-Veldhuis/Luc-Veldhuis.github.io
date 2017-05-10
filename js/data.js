@@ -99,6 +99,12 @@
                 "location": "files/groepenTheorie/slides/slides13.pdf", 
                 "slug": "slides13", 
                 "title": "Slides 13"
+            }, 
+            {
+                "length": 11, 
+                "location": "files/groepenTheorie/slides/slides14.pdf", 
+                "slug": "slides14", 
+                "title": "Slides 14"
             }
         ], 
         "slug": "groepenTheorie", 
