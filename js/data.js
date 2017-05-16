@@ -25,6 +25,11 @@
                 "location": "files/groepenTheorie/assignments/assignment5.pdf", 
                 "slug": "assignment5", 
                 "title": "Assignment 5"
+            }, 
+            {
+                "location": "files/groepenTheorie/assignments/assignment6.pdf", 
+                "slug": "assignment6", 
+                "title": "Assignment 6"
             }
         ], 
         "slides": [
@@ -234,6 +239,11 @@
                 "location": "files/topologie/assignments/assignment12.pdf", 
                 "slug": "assignment12", 
                 "title": "Assignment 12"
+            }, 
+            {
+                "location": "files/topologie/assignments/assignment13.pdf", 
+                "slug": "assignment13", 
+                "title": "Assignment 13"
             }
         ], 
         "slides": [], 
