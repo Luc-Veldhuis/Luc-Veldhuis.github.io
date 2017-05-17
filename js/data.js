@@ -183,6 +183,12 @@
                 "location": "files/analysis2b/slides/slides10.pdf", 
                 "slug": "slides10", 
                 "title": "Slides 10"
+            }, 
+            {
+                "length": 9, 
+                "location": "files/analysis2b/slides/slides11.pdf", 
+                "slug": "slides11", 
+                "title": "Slides 11"
             }
         ], 
         "slug": "analysis2b", 
