@@ -1,8 +1,9 @@
 var navElement;
+var dropDownElement;
 var slideElement;
 var assignmentElement;
 var loadCounter = 0;
-var externalCalls = 4;
+var externalCalls = 5;
 var data;
 
 $(document).ready(function(){
@@ -19,6 +20,14 @@ $(document).ready(function(){
 	  url: 'blocks/navElement.html',
 	  success: function(data) {
 			navElement = $(data);
+			countLoadedElements(updateOnClick);
+		},
+	  dataType: 'html'
+	});
+	$.ajax({
+	  url: 'blocks/dropDownElement.html',
+	  success: function(data) {
+			dropDownElement = $(data);
 			countLoadedElements(updateOnClick);
 		},
 	  dataType: 'html'
@@ -58,7 +67,13 @@ function updateOnClick() {
 		currentCourse = data[0];
 	}
 	$('#navbar').empty();
+	var addedOverig = false;
 	data.forEach(function(course) {
+		if(course.isOverig && !addedOverig) {
+			//add dropdown menu
+			$('#navbar').append($(dropDownElement[0]).clone()).html();
+			addedOverig = true;
+		} 
 		var element = $(navElement[0]).clone();
 		if(currentCourse.title == course.title){
 			element.attr('class', 'active');
@@ -66,7 +81,12 @@ function updateOnClick() {
 		var link = $(element).children();
 		link.attr('href', '#'+course.slug);
 		link.html(course.title+link.html());
-		$('#navbar').append(element).html();
+		if(course.isOverig) {
+			$('#dropdownLadder').append(element).html();
+		} else {
+			$('#navbar').append(element).html();
+		}
+	
 	});
 	$('#content-container').empty();
 	$('#assignment-container').empty();

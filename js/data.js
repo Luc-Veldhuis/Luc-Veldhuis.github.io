@@ -1,5 +1,31 @@
 [
     {
+        "assignments": [],
+        "slides": [
+            {
+                "length": 11,
+                "location": "files/measure/slides/slides1.pdf",
+                "slug": "slides1",
+                "title": "Slides 1"
+            }
+        ],
+        "slug": "measure",
+        "title": "Measure Theory"
+    },
+    {
+        "assignments": [],
+        "slides": [
+            {
+                "length": 12,
+                "location": "files/ringenLichamen/slides/slides1.pdf",
+                "slug": "slides1",
+                "title": "Slides 1"
+            }
+        ],
+        "slug": "ringenLichamen",
+        "title": "Ringen en Lichamen"
+    },
+    {
         "assignments": [
             {
                 "location": "files/groepenTheorie/assignments/assignment1.pdf",
@@ -125,7 +151,8 @@
             }
         ],
         "slug": "groepenTheorie",
-        "title": "Groepen Theorie"
+        "title": "Groepen Theorie",
+        "isOverig": true
     },
     {
         "assignments": [
@@ -216,7 +243,8 @@
             }
         ],
         "slug": "analysis2b",
-        "title": "Analyse 2B"
+        "title": "Analyse 2B",
+        "isOverig": true
     },
     {
         "assignments": [
@@ -278,7 +306,8 @@
         ],
         "slides": [],
         "slug": "topologie",
-        "title": "Topologie"
+        "title": "Topologie",
+        "isOverig": true
     },
     {
         "assignments": [
@@ -300,7 +329,8 @@
         ],
         "slides": [],
         "slug": "linearAlgebra2",
-        "title": "Lineaire Algebra 2"
+        "title": "Lineaire Algebra 2",
+        "isOverig": true
     },
     {
         "assignments": [],
@@ -343,7 +373,8 @@
             }
         ],
         "slug": "statistics",
-        "title": "Statistics"
+        "title": "Statistics",
+        "isOverig": true
     },
     {
         "assignments": [],
@@ -356,7 +387,8 @@
             }
         ],
         "slug": "logic",
-        "title": "Logic"
+        "title": "Logic",
+        "isOverig": true
     },
     {
         "assignments": [],
@@ -441,7 +473,8 @@
             }
         ],
         "slug": "analysis1b",
-        "title": "Analyse 1B"
+        "title": "Analyse 1B",
+        "isOverig": true
     },
     {
         "assignments": [],
@@ -496,7 +529,8 @@
             }
         ],
         "slug": "analysis2a",
-        "title": "Analyse 2A"
+        "title": "Analyse 2A",
+        "isOverig": true
     },
     {
         "assignments": [
@@ -508,6 +542,7 @@
         ],
         "slides": [],
         "slug": "modelleren2",
-        "title": "Wiskundig Modelleren 2"
+        "title": "Wiskundig Modelleren 2",
+        "isOverig": true
     }
 ]
