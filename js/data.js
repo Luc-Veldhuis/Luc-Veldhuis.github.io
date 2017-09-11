@@ -7,6 +7,12 @@
                 "location": "files/measure/slides/slides1.pdf",
                 "slug": "slides1",
                 "title": "Slides 1"
+            },
+            {
+                "length": 12,
+                "location": "files/measure/slides/slides2.pdf",
+                "slug": "slides2",
+                "title": "Slides 2"
             }
         ],
         "slug": "measure",
@@ -20,6 +26,12 @@
                 "location": "files/ringenLichamen/slides/slides1.pdf",
                 "slug": "slides1",
                 "title": "Slides 1"
+            },
+            {
+                "length": 15,
+                "location": "files/ringenLichamen/slides/slides2.pdf",
+                "slug": "slides2",
+                "title": "Slides 2"
             }
         ],
         "slug": "ringenLichamen",
@@ -58,6 +70,7 @@
                 "title": "Assignment 6"
             }
         ],
+        "isOverig": true,
         "slides": [
             {
                 "length": 11,
@@ -151,8 +164,7 @@
             }
         ],
         "slug": "groepenTheorie",
-        "title": "Groepen Theorie",
-        "isOverig": true
+        "title": "Groepen Theorie"
     },
     {
         "assignments": [
@@ -162,6 +174,7 @@
                 "title": "Samenvatting"
             }
         ],
+        "isOverig": true,
         "slides": [
             {
                 "length": 12,
@@ -243,8 +256,7 @@
             }
         ],
         "slug": "analysis2b",
-        "title": "Analyse 2B",
-        "isOverig": true
+        "title": "Analyse 2B"
     },
     {
         "assignments": [
@@ -304,10 +316,10 @@
                 "title": "Assignment 13"
             }
         ],
+        "isOverig": true,
         "slides": [],
         "slug": "topologie",
-        "title": "Topologie",
-        "isOverig": true
+        "title": "Topologie"
     },
     {
         "assignments": [
@@ -327,13 +339,14 @@
                 "title": "Assignment 6"
             }
         ],
+        "isOverig": true,
         "slides": [],
         "slug": "linearAlgebra2",
-        "title": "Lineaire Algebra 2",
-        "isOverig": true
+        "title": "Lineaire Algebra 2"
     },
     {
         "assignments": [],
+        "isOverig": true,
         "slides": [
             {
                 "length": 15,
@@ -373,11 +386,11 @@
             }
         ],
         "slug": "statistics",
-        "title": "Statistics",
-        "isOverig": true
+        "title": "Statistics"
     },
     {
         "assignments": [],
+        "isOverig": true,
         "slides": [
             {
                 "length": 6,
@@ -387,11 +400,11 @@
             }
         ],
         "slug": "logic",
-        "title": "Logic",
-        "isOverig": true
+        "title": "Logic"
     },
     {
         "assignments": [],
+        "isOverig": true,
         "slides": [
             {
                 "length": 23,
@@ -473,11 +486,11 @@
             }
         ],
         "slug": "analysis1b",
-        "title": "Analyse 1B",
-        "isOverig": true
+        "title": "Analyse 1B"
     },
     {
         "assignments": [],
+        "isOverig": true,
         "slides": [
             {
                 "length": 15,
@@ -529,8 +542,7 @@
             }
         ],
         "slug": "analysis2a",
-        "title": "Analyse 2A",
-        "isOverig": true
+        "title": "Analyse 2A"
     },
     {
         "assignments": [
@@ -540,9 +552,9 @@
                 "title": "Presentatie 1"
             }
         ],
+        "isOverig": true,
         "slides": [],
         "slug": "modelleren2",
-        "title": "Wiskundig Modelleren 2",
-        "isOverig": true
+        "title": "Wiskundig Modelleren 2"
     }
 ]
