@@ -13,6 +13,24 @@
                 "location": "files/measure/slides/slides2.pdf",
                 "slug": "slides2",
                 "title": "Slides 2"
+            },
+            {
+                "length": 8,
+                "location": "files/measure/slides/slides4.pdf",
+                "slug": "slides4",
+                "title": "Slides 4"
+            },
+            {
+                "length": 8,
+                "location": "files/measure/slides/slides5.pdf",
+                "slug": "slides5",
+                "title": "Slides 5"
+            },
+            {
+                "length": 13,
+                "location": "files/measure/slides/slides6.pdf",
+                "slug": "slides6",
+                "title": "Slides 6"
             }
         ],
         "slug": "measure",
@@ -32,6 +50,24 @@
                 "location": "files/ringenLichamen/slides/slides2.pdf",
                 "slug": "slides2",
                 "title": "Slides 2"
+            },
+            {
+                "length": 14,
+                "location": "files/ringenLichamen/slides/sldies3.pdf",
+                "slug": "sldies3",
+                "title": "Sldies 3"
+            },
+            {
+                "length": 13,
+                "location": "files/ringenLichamen/slides/slides4.pdf",
+                "slug": "slides4",
+                "title": "Slides 4"
+            },
+            {
+                "length": 13,
+                "location": "files/ringenLichamen/slides/slides5.pdf",
+                "slug": "slides5",
+                "title": "Slides 5"
             }
         ],
         "slug": "ringenLichamen",
