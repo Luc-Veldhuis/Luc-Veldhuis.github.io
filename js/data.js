@@ -68,6 +68,12 @@
                 "location": "files/ringenLichamen/slides/slides5.pdf",
                 "slug": "slides5",
                 "title": "Slides 5"
+            },
+            {
+                "length": 14,
+                "location": "files/ringenLichamen/slides/slides6.pdf",
+                "slug": "slides6",
+                "title": "Slides 6"
             }
         ],
         "slug": "ringenLichamen",
