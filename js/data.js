@@ -55,6 +55,12 @@
                 "location": "files/measure/slides/slides13.pdf",
                 "slug": "slides13",
                 "title": "Slides 13"
+            },
+            {
+                "length": 9,
+                "location": "files/measure/slides/slides14.pdf",
+                "slug": "slides14",
+                "title": "Slides 14"
             }
         ],
         "slug": "measure",
