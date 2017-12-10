@@ -67,7 +67,33 @@
         "title": "Measure Theory"
     },
     {
-        "assignments": [],
+        "assignments": [
+            {
+                "location": "files/ringenLichamen/assignments/assignment1.pdf",
+                "slug": "assignment1",
+                "title": "Assignment 1"
+            },
+            {
+                "location": "files/ringenLichamen/assignments/assignment2.pdf",
+                "slug": "assignment2",
+                "title": "Assignment 2"
+            },
+            {
+                "location": "files/ringenLichamen/assignments/assignment3.pdf",
+                "slug": "assignment3",
+                "title": "Assignment 3"
+            },
+            {
+                "location": "files/ringenLichamen/assignments/assignment4.pdf",
+                "slug": "assignment4",
+                "title": "Assignment 4"
+            },
+            {
+                "location": "files/ringenLichamen/assignments/assignment5.pdf",
+                "slug": "assignment5",
+                "title": "Assignment 5"
+            }
+        ],
         "slides": [
             {
                 "length": 12,
@@ -134,6 +160,12 @@
                 "location": "files/ringenLichamen/slides/slides12.pdf",
                 "slug": "slides12",
                 "title": "Slides 12"
+            },
+            {
+                "length": 15,
+                "location": "files/ringenLichamen/slides/slides14.pdf",
+                "slug": "slides14",
+                "title": "Slides 14"
             }
         ],
         "slug": "ringenLichamen",
