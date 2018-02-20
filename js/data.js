@@ -696,5 +696,30 @@
         "slides": [],
         "slug": "modelleren2",
         "title": "Wiskundig Modelleren 2"
+    },
+    {
+        "assignments": [],
+        "slides": [
+            {
+                "length": 8,
+                "location": "files/complexeAnalyse/slides/slides1.pdf",
+                "slug": "slides1",
+                "title": "Slides 1"
+            },
+            {
+                "length": 14,
+                "location": "files/complexeAnalyse/slides/slides2.pdf",
+                "slug": "slides2",
+                "title": "Slides 2"
+            },
+            {
+                "length": 12,
+                "location": "files/complexeAnalyse/slides/slides3.pdf",
+                "slug": "slides3",
+                "title": "Slides 3"
+            }
+        ],
+        "slug": "complexeAnalyse",
+        "title": "Complexe Analyse"
     }
 ]

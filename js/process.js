@@ -66,6 +66,17 @@ function updateOnClick() {
 	if(!currentCourse) {
 		currentCourse = data[0];
 	}
+	data.sort(function(course1, course2) {
+		if(course1.isOverig == course2.isOverig) {
+			return 0;
+		}
+		if(course1.isOverig && !course2.isOverig) {
+			return 1;
+		}
+		if(!course1.isOverig && course2.isOverig) {
+			return -1;
+		}
+	});
 	$('#navbar').empty();
 	var addedOverig = false;
 	data.forEach(function(course) {
