@@ -717,6 +717,12 @@
                 "location": "files/complexeAnalyse/slides/slides3.pdf",
                 "slug": "slides3",
                 "title": "Slides 3"
+            },
+            {
+                "length": 10,
+                "location": "files/complexeAnalyse/slides/slides4.pdf",
+                "slug": "slides4",
+                "title": "Slides 4"
             }
         ],
         "slug": "complexeAnalyse",
